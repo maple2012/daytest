@@ -23,8 +23,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4d21375c-706d-46c9-abe0-b14efe118b2b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kuang/juc/Test1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kuang/juc/Test1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/TestDay.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/TestDay.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kuang/juc/Data.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/kuang/juc/Data.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kuang/juc/Test1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/kuang/juc/Test1.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,19 +66,58 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.4275862" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
-  <component name="RunManager" selected="Application.Test1">
+  <component name="RunManager" selected="Application.Test1 (1)">
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java8.stream.Test" />
+      <module name="daytest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.java8.stream.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test1 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java8.stream.Test.demo.Test1" />
+      <module name="daytest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.java8.stream.Test.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.kuang.juc.Test1" />
       <module name="daytest" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.kuang.juc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kuang.juc.lock8.Test2" />
+      <module name="daytest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kuang.juc.lock8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -89,19 +132,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test1 (1)" />
+        <item itemvalue="Application.Test2" />
+        <item itemvalue="Application.Test" />
         <item itemvalue="Application.Test1" />
         <item itemvalue="Application.TestDay" />
       </list>
@@ -121,7 +156,9 @@
       <workItem from="1597027132254" duration="990000" />
       <workItem from="1597028216249" duration="2526000" />
       <workItem from="1597052543193" duration="694000" />
-      <workItem from="1597067994061" duration="6413000" />
+      <workItem from="1597067994061" duration="7161000" />
+      <workItem from="1597793216214" duration="10446000" />
+      <workItem from="1600473868573" duration="23000" />
     </task>
     <servers />
   </component>
@@ -138,24 +175,33 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1360" height="204" key="GridCell.Tab.0.bottom" timestamp="1597219932303">
-      <screen x="-519" y="-1417" width="2560" height="1417" />
+    <state x="531" y="195" key="#com.intellij.ide.util.MemberChooser" timestamp="1599922962309">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="531" y="195" key="#com.intellij.ide.util.MemberChooser/0.23.1440.877/-519.-1417.2560.1417@0.23.1440.877" timestamp="1599922962309" />
+    <state width="1360" height="294" key="GridCell.Tab.0.bottom" timestamp="1599977339985">
+      <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1360" height="204" key="GridCell.Tab.0.bottom/0.23.1440.877/-519.-1417.2560.1417@-519.-1417.2560.1417" timestamp="1597219932303" />
-    <state width="1360" height="204" key="GridCell.Tab.0.center" timestamp="1597219932302">
-      <screen x="-519" y="-1417" width="2560" height="1417" />
+    <state width="1360" height="294" key="GridCell.Tab.0.bottom/0.23.1440.877/-519.-1417.2560.1417@0.23.1440.877" timestamp="1599977339985" />
+    <state width="1360" height="294" key="GridCell.Tab.0.center" timestamp="1599977339984">
+      <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1360" height="204" key="GridCell.Tab.0.center/0.23.1440.877/-519.-1417.2560.1417@-519.-1417.2560.1417" timestamp="1597219932302" />
-    <state width="1360" height="204" key="GridCell.Tab.0.left" timestamp="1597219932302">
-      <screen x="-519" y="-1417" width="2560" height="1417" />
+    <state width="1360" height="294" key="GridCell.Tab.0.center/0.23.1440.877/-519.-1417.2560.1417@0.23.1440.877" timestamp="1599977339984" />
+    <state width="1360" height="294" key="GridCell.Tab.0.left" timestamp="1599977339983">
+      <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1360" height="204" key="GridCell.Tab.0.left/0.23.1440.877/-519.-1417.2560.1417@-519.-1417.2560.1417" timestamp="1597219932302" />
-    <state width="1360" height="204" key="GridCell.Tab.0.right" timestamp="1597219932303">
-      <screen x="-519" y="-1417" width="2560" height="1417" />
+    <state width="1360" height="294" key="GridCell.Tab.0.left/0.23.1440.877/-519.-1417.2560.1417@0.23.1440.877" timestamp="1599977339983" />
+    <state width="1360" height="294" key="GridCell.Tab.0.right" timestamp="1599977339984">
+      <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1360" height="204" key="GridCell.Tab.0.right/0.23.1440.877/-519.-1417.2560.1417@-519.-1417.2560.1417" timestamp="1597219932303" />
+    <state width="1360" height="294" key="GridCell.Tab.0.right/0.23.1440.877/-519.-1417.2560.1417@0.23.1440.877" timestamp="1599977339984" />
     <state width="1360" height="253" key="GridCell.Tab.1.bottom" timestamp="1597219028088">
       <screen x="-519" y="-1417" width="2560" height="1417" />
     </state>
@@ -172,9 +218,10 @@
       <screen x="-519" y="-1417" width="2560" height="1417" />
     </state>
     <state width="1360" height="253" key="GridCell.Tab.1.right/0.23.1440.877/-519.-1417.2560.1417@-519.-1417.2560.1417" timestamp="1597219028088" />
-    <state x="-5" y="-911" key="SettingsEditor" timestamp="1597068124186">
-      <screen x="-519" y="-1417" width="2560" height="1417" />
+    <state x="289" y="63" key="SettingsEditor" timestamp="1599963917559">
+      <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="-5" y="-911" key="SettingsEditor/0.23.1440.877/-519.-1417.2560.1417@-519.-1417.2560.1417" timestamp="1597068124186" />
+    <state x="289" y="63" key="SettingsEditor/0.23.1440.877/-519.-1417.2560.1417@0.23.1440.877" timestamp="1599963917559" />
   </component>
 </project>
