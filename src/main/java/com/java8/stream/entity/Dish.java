@@ -1,5 +1,8 @@
 package com.java8.stream.entity;
 
+import lombok.Builder;
+
+@Builder
 public class Dish {
     private final String name;
     /**
